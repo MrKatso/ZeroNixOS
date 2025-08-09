@@ -12,6 +12,6 @@
   ### Perfil de testes usando vmware
   vmware = {
     #### Funcionalidades
-    vim = true;
+    vim = false;
   };
 }

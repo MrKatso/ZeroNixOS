@@ -1,10 +1,7 @@
 # IMPORTS E VARS NECESSÁRIOS PARA ESTE MÓDULO:
 {
   config, 
-  stablePkgs, 
-  unstablePkgs, 
-  libFunctions, 
-  modulesPath, 
+  hostName, 
   ...
 }: {
   ## Configuração do hostname da máquina

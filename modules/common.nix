@@ -2,10 +2,7 @@
 {
   config, 
   stablePkgs, 
-  unstablePkgs, 
   libFunctions, 
-  modulesPath, 
-  hasGUI, 
   isVM, 
   ...
 }: {
