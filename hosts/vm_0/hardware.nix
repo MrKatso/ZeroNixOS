@@ -18,25 +18,25 @@
   # SISTEMAS DE ARQUIVOS:
   ## Raiz do sistema
   fileSystems."/" = {
-    device = "/dev/disk/by-uuid/aaf20149-c7d3-4703-ac43-5f165f3c937c";
+    device = "/dev/disk/by-uuid/ee4b2460-9398-453d-ad92-d122cbc2543a";
     fsType = "btrfs";
     options = [ "subvol=@" "compress=zstd:1" "noatime" ];
   };
   ## Home separada
   fileSystems."/home" = {
-    device = "/dev/disk/by-uuid/aaf20149-c7d3-4703-ac43-5f165f3c937c";
+    device = "/dev/disk/by-uuid/ee4b2460-9398-453d-ad92-d122cbc2543a";
     fsType = "btrfs";
     options = [ "subvol=@home" "compress=zstd:1" "noatime" ];
   };
   ## Partição nix (obrigatória por sistema)
   fileSystems."/nix" = {
-    device = "/dev/disk/by-uuid/aaf20149-c7d3-4703-ac43-5f165f3c937c";
+    device = "/dev/disk/by-uuid/ee4b2460-9398-453d-ad92-d122cbc2543a";
     fsType = "btrfs";
     options = [ "subvol=@nix" "compress=zstd:1" "noatime" ];
   };
   ## Partição de boot EFI
   fileSystems."/boot" = {
-    device = "/dev/disk/by-uuid/9909-E4FC";
+    device = "/dev/disk/by-uuid/73B1-EFB2";
     fsType = "vfat";
     options = [ "fmask=0022" "dmask=0022" ];
   };
