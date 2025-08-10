@@ -3,9 +3,7 @@
   config, 
   libFunctions, 
   ...
-}:
-
-{
+}: {
   # IMPORTS PARA MÓDULOS DO HARDWARE:
   imports = [  ];
 

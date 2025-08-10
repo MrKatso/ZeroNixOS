@@ -65,7 +65,7 @@
   ## Esta é a opção chave. Ela torna os arquivos /etc/passwd e /etc/shadow
   ## imutáveis, gerenciados apenas pelo NixOS
   ## O comando `passwd` parará de funcionar
-  security.mutableUsers = false;
+  users.mutableUsers = false;
 
   # CONFIGURAÇÃO DE SEGURANÇA DO ROOT:
   users.users.root = {
