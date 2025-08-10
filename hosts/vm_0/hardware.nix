@@ -2,7 +2,6 @@
 {
   config, 
   libFunctions, 
-  system, 
   ...
 }:
 
@@ -46,5 +45,5 @@
   networking.useDHCP = libFunctions.mkDefault true;
 
   # OPÇÕES CRÍTICAS DO SISTEMA:
-  nixpkgs.hostPlatform = libFunctions.mkDefault system;
+  nixpkgs.hostPlatform = libFunctions.mkDefault "x86_64-linux";
 }
